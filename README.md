@@ -17,5 +17,8 @@ A simple JavaScript game where two players can roll virtual dice and compete aga
 Feel free to contribute to this project by submitting bug reports, feature requests, or pull requests.
 
 
+
 <h2>License</h2>
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License - see the <a href="LICENCE.txt">LICENSE</a> file for details.
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
