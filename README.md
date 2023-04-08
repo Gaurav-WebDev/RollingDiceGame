@@ -1,3 +1,4 @@
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 <h1>RollingDiceGame</h1>
 A simple JavaScript game where two players can roll virtual dice and compete against each other to see who gets the highest score. The game can be played locally on a single device and is perfect for beginners interested in learning the basics of web development and JavaScript programming.
 
@@ -21,4 +22,4 @@ Feel free to contribute to this project by submitting bug reports, feature reque
 <h2>License</h2>
 This project is licensed under the MIT License - see the <a href="LICENCE.txt">LICENSE</a> file for details.
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
