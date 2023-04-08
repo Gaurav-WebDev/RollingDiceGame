@@ -2,6 +2,12 @@
 <h1>RollingDiceGame</h1>
 A simple JavaScript game where two players can roll virtual dice and compete against each other to see who gets the highest score. The game can be played locally on a single device and is perfect for beginners interested in learning the basics of web development and JavaScript programming.
 
+
+<h2>Game Preview</h2>
+
+![image](https://user-images.githubusercontent.com/129940264/230718342-3caef4e2-3056-4da9-b79d-1a439c70071a.png)
+
+
 <h2>How to Play</h2>
 1.Open the index.html file in a web browser.
 
