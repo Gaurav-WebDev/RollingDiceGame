@@ -8,9 +8,8 @@ function playBackgroundMusic() {
   bgMusic.play();
 }
 
-window.addEventListener('load', playBackgroundMusic);
-
 function roll() {
+  playBackgroundMusic();
   let play1 = Math.ceil(Math.random() * 6);
   let play1dice = 'images/' + play1 + '.png';
   document.getElementById("dice1").setAttribute("src", play1dice);
