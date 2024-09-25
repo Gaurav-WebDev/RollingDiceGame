@@ -9,13 +9,11 @@ body{
     text-align: center;
 }
 
-
 h1{
     margin-top: 50px;
     font-size: 3em;
     word-spacing: 10px;
 }
-
 
 .mainContainer{
     display: flex;
@@ -32,7 +30,11 @@ h1{
     padding: 50px;
 }
 
-
+.dice img{
+    height: 150px;
+    width: 150px;
+    transition: transform 0.3s ease;
+}
 
 .btn1{
     height: 50px;
@@ -51,6 +53,33 @@ h1{
     box-shadow: 10px 20px 20px 0px #252525;
 }
 
+/* Dice Rolling Animation */
+.rolling {
+    animation: roll-dice 1s ease forwards;
+}
+
+@keyframes roll-dice {
+    0% {
+        transform: rotate(0deg) scale(1);
+        opacity: 1;
+    }
+    25% {
+        transform: rotate(90deg) scale(1.2);
+        opacity: 0.8;
+    }
+    50% {
+        transform: rotate(180deg) scale(0.9);
+        opacity: 0.6;
+    }
+    75% {
+        transform: rotate(270deg) scale(1.3);
+        opacity: 0.9;
+    }
+    100% {
+        transform: rotate(360deg) scale(1);
+        opacity: 1;
+    }
+}
 
 @media (max-width: 768px){
     *{
